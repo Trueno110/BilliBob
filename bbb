@@ -1,0 +1,129 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="main_background">
+            <div class="green_box">
+                    <h1>Nature's beauty</h1>
+                <div class="header_block">
+                    <div class="mybutton">FOREST</div>
+                    <div class="mybutton">OCEAN</div>
+                    <div class="mybutton">MOUNTAIN</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Look how beateful our nature is!</h2>
+        <div class="main_block">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Old Forest</td>
+                        <td>New Mountains</td>
+                        <td>Fresh Oceane</td>
+                    </tr>
+                    <tr>
+                        <td>Old Forest</td>
+                        <td>New Mountains</td>
+                        <td>Fresh Oceane</td>
+                    </tr>
+                    <tr>
+                        <td>Old Forest</td>
+                        <td>New Mountains</td>
+                        <td>Fresh Oceane</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main_footer">
+            <p>Работу выполнил <br />студент группы ДИ-11<br />Федоров Илья</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+main css
+.main_background {
+    background-image: url("background.jpg");
+    height: 700px;
+    width: 100%;
+}
+
+.green_box {
+    width: 30%;
+    height: 600px;
+    background-color: rgb(19, 204, 90);
+    padding-top: 100px;
+}
+
+h1, h2, h3 {    
+    text-align: center;
+}
+
+.header_block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 33%;
+}
+
+.mybutton {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: darkgreen;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.main_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 30%;
+    border-spacing: 30px;
+}
+
+td {
+    border: 2px solid;
+    border-color: darkgreen;
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    width: 33%;
+}
+
+
+.main_footer {
+    width: 100%;
+    height: 90px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
